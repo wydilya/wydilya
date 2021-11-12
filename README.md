@@ -1,16 +1,32 @@
-### Hi there 👋
+### Hi there 👋 I'm Ilya Zelkin!
 
-<!--
-**wydilya/wydilya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+- 💻 I like to create apps for IOS
+- 📱 I'm Mobile Developer
+- ✅ All the time I want to learn something new
+- ✨ I improve my skills every day
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+```Swift 
+var mySkillsArray = ["Swift", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "CoreData", "CocoaPods", "Git"]
+
+struct MyProfile: CustomStringConvertible {
+    let name = "Ilya"
+    var description: String {
+     """
+     Hello everyone! I'm \(name) and I'm Mobile Developer
+     I create app for IOS! Every time I care about the design and
+     quality of my applications because I want to create fascinating apps!
+
+     """
+    }
+    func iCanUse() {
+        for skills in mySkillsArray {
+            print("i can use: \(skills)")
+        }
+    }
+}
+
+let myProfile = MyProfile()
+print(myProfile.description)
+print(myProfile.iCanUse())
