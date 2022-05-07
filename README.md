@@ -8,7 +8,7 @@
 
 
 ```Swift 
-var mySkillsArray = ["Swift", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "CoreData", "CocoaPods", "Git"]
+var mySkillsArray = ["Swift", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreData", "CocoaPods", "HIG", "Git"]
 
 struct MyProfile: CustomStringConvertible {
     let name = "Ilya"
@@ -17,7 +17,7 @@ struct MyProfile: CustomStringConvertible {
      Hello everyone! I'm \(name) and I'm Mobile Developer
      I create app for IOS! Every time I care about the design and
      quality of my applications because I want to create fascinating apps!
-
+     
      """
     }
     func iCanUse() {
