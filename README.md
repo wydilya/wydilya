@@ -1,5 +1,7 @@
-### Hi there 👋 I'm Ilya Zelkin!
+![Metrics](https://metrics.lecoq.io/wydilya?template=classic&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=0&config.timezone=Europe%2FMoscow)
+# 
 
+### Hi there 👋 I'm Ilya Zelkin!
 
 - 💻 I like to create apps for IOS
 - 📱 I'm Mobile Developer
