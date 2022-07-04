@@ -19,7 +19,6 @@ struct MyProfile: CustomStringConvertible {
      Hello everyone! I'm \(name) and I'm Mobile Developer
      I create app for IOS! Every time I care about the design and
      quality of my applications because I want to create fascinating apps!
-     
      """
     }
     func iCanUse() {
