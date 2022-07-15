@@ -10,7 +10,7 @@
 
 
 ```Swift 
-var mySkillsArray = ["Swift", "JavaScript", "React Native", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreML, "CoreData", "CocoaPods", "HIG", "Git", "Figma"]
+var mySkillsArray = ["Swift", "JavaScript", "React Native", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreML", "CoreData", "CocoaPods", "HIG", "Git", "Figma"]
 
 struct MyProfile: CustomStringConvertible {
     let name = "Ilya"
