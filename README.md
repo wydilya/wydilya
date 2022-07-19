@@ -3,21 +3,21 @@
 
 ### Hi there 👋 I'm Ilya Zelkin!
 
-- 💻 I like to create apps for IOS
-- 📱 I'm Mobile Developer
+- 💻 I like to create apps for iOS
+- 📱 I'm a Mobile Developer
 - ✅ All the time I want to learn something new
 - ✨ I improve my skills every day
 
 
 ```Swift 
-var mySkillsArray = ["Swift", "JavaScript", "React Native", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreML", "CoreData", "CocoaPods", "HIG", "Git", "Figma"]
+var mySkillsArray = ["Swift", "JavaScript", "React Native", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreML", "MapKit", "CoreData", "CocoaPods", "HIG", "Firebase", "Git", "Figma"]
 
 struct MyProfile: CustomStringConvertible {
     let name = "Ilya"
     var description: String {
      """
-     Hello everyone! I'm \(name) and I'm Mobile Developer
-     I create app for IOS! Every time I care about the design and
+     Hello everyone! I'm \(name) and I'm a Mobile Developer
+     I create apps for iOS! Every time I care about the design and
      quality of my applications because I want to create fascinating apps!
      """
     }
