@@ -7,23 +7,29 @@
 
 
 ```Swift 
-var mySkillsArray = ["Swift", "JavaScript", "React Native", "UIKit", "SwiftUI", "MVC", "MVP", "MVVM", "Work With APIs", "ARKit", "CoreML", "MapKit", "CoreData", "CocoaPods", "HIG", "Firebase", "Git", "Figma"]
+let mySkillsArray = [
+	"Swift", "Java", "Kotlin", "UIKit", "SwiftUI", "Jetpack Compose", "MVC", "MVP", "MVVM",
+	"Work With APIs", "ARKit", "CoreML", "MapKit", "CoreData", "CocoaPods", "HIG", "Firebase",
+	"Git", "Figma", "Other Skills"
+]
 
 struct MyProfile: CustomStringConvertible {
-    let name = "Ilya"
-    var description: String {
-     """
-     Hello everyone! I'm \(name) and I'm a Mobile Developer
-     I create apps for iOS! Every time I care about the design and
-     quality of my applications because I want to create fascinating apps!
-     """
-    }
-    func iCanUse() {
-        for skills in mySkillsArray {
-            print("i can use: \(skills)")
-        }
-    }
+	let name = "Ilya"
+	var description: String {
+		"""
+		Hello everyone! I'm \(name) and I'm a Mobile Developer
+		I create apps for iOS! Every time I care about the design and
+		quality of my applications because I want to create fascinating apps!
+		
+		"""
+	}
+	func iCanUse() {
+		for skills in mySkillsArray {
+			print("I can use: \(skills)")
+		}
+	}
 }
+
 
 let myProfile = MyProfile()
 print(myProfile.description)
