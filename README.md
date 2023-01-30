@@ -1,6 +1,6 @@
 ### Hi there 👋 I'm Ilya Zelkin!
 
-- 💻 I like to create apps for iOS
+- 💻 I like to create apps for Mobile Devices
 - 📱 I'm a Mobile Developer
 - ✅ All the time I want to learn something new
 - ✨ I improve my skills every day
